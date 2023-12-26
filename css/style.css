@@ -1,0 +1,31 @@
+/* h1
+{
+background-color: rgb(155, 93, 93);
+}*/
+/* .heading
+{
+    background-color: darkkhaki;
+} */
+#h
+
+{
+    text-align: center;
+    color:hotpink;
+    font-size: 50px;
+    
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+div{
+   text-align: center;
+
+}
+.para{
+    color: darkmagenta;
+    font-weight:bold;
+    font-style: italic;
+
+}
