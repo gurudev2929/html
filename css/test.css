@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+   
+}
+.outer{
+    border: 20px solid color(srgb red);
+    border: red;
+    border-top-right-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 5px black;
+    display: grid;
+    grid-template-columns: 1fr 2fr  ;
+    gap: 10px;
+}
+.inner{
+    border: 1px  solid ;
+
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+#img
+{
+float: right;
+
+}
+#para{
+    clear: both;
+}

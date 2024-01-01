@@ -1,0 +1,33 @@
+img{
+    float:right;
+
+}
+#para{
+    clear:left ;
+}
+/*
+my float css ends here*/
+/* flexbox */
+#outer{
+    border: 1px solid blue;
+    height: 200px;
+    width: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-wrap: wrap;
+    
+    justify-items: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid black;
+    width: 100px;
+    margin: ;
+}
+.five
+{
+    flex-grow: 5;
+}

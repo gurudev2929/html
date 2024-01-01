@@ -5,7 +5,7 @@ background-color: rgb(155, 93, 93);
 /* .heading
 {
     background-color: darkkhaki;
-} */
+}*/ 
 #h
 
 {
@@ -15,7 +15,6 @@ background-color: rgb(155, 93, 93);
     
 }
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -28,4 +27,26 @@ div{
     font-weight:bold;
     font-style: italic;
 
+}
+#outer
+{
+    height: 300px;
+    border: 20px solid brown;
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 500px;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    
+    margin: 20px;
+}
+*{
+    box-sizing: border-box;
 }

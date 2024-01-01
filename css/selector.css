@@ -1,0 +1,42 @@
+.inner
+{
+    background-color: antiquewhite;
+}
+/*pseudo selectors*/
+/*pseudo classes*/
+p::first-letter
+{
+    font-size: 50px;
+    color: brown;
+}
+.p1::before
+{
+content: saku;
+}
+button
+{
+    height: 50px;
+    width: 100px;
+    color:white;
+    background-color: black;
+}
+button:hover
+{
+    background-color:palegoldenrod ;
+}
+a:active
+{
+    background-color: aqua;
+}
+a:visited
+{
+ background-color: chartreuse;   
+}
+.inp:focus
+{
+    border: 1px solid black;
+}
+.inner:nth-child(3)
+{
+   background-color: aquamarine; 
+}
