@@ -1,0 +1,49 @@
+#outer
+{
+    border: 2px solid black;
+    height: 200px;
+    width: 500px;
+
+}
+.inner
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transition: 5s all ease;
+}
+.inner:hover
+{
+    height: 200px;
+    width: 200px;
+}
+.header
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:black;
+    color: aliceblue;
+}
+.menu-list
+{
+    display: flex;
+    gap: 15px;
+}
+.menu-item
+{
+    list-style-type: none;
+}
+.menu-item a
+{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  transition: 2s all ease;
+  
+}
+.menu-item a:hover
+{
+    color: chocolate;
+    
+}
