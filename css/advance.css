@@ -39,11 +39,13 @@
   text-decoration: none;
   color:white;
   font-size: 20px;
-  transition: 2s all ease;
+  
   
 }
-.menu-item a:hover
+.menu-item :hover
 {
-    color: chocolate;
-    
+    transform: rotate(30deg);
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 1px;
 }
