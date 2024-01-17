@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+header
+{
+    background-color: black;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    height: 100px;
+
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+    
+}  
+.a{
+    text-decoration: none;
+    color:white;
+     font-size: 28px;
+}
+
+.menu li{
+    padding: 10px;
+}
+.a:hover
+{
+    color: gold;
+}
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/blue-green-patterned-background-vector_53876-63168.jpg?w=740&t=st=1704374872~exp=1704375472~hmac=a498baea2caf2b108856620a3cc31b9425dbff064476ee3b40b47c193affdede);
+}
+#home
+{
+    height: 100%;
+    display: flex;
+    color: white;
+
+}
